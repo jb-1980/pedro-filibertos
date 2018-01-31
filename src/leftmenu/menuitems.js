@@ -94,17 +94,17 @@ export const menuitems = {
       },
       {
         name: '3 Rolled Tacos Cheese',
-        price: '$3.41',
+        price: '$3.52',
         description: '',
       },
       {
         name: '3 Rolled Tacos Cheese w/ Guacamole',
-        price: '$4.06',
+        price: '$4.20',
         description: '',
       },
       {
         name: '5 Rolled Tacos Cheese w/ Guacamole',
-        price: '$5.23',
+        price: '$5.41',
         description: '',
       },
     ],

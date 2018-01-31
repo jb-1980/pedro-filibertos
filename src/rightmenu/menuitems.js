@@ -33,7 +33,7 @@ export const menuitems = [
     items: [
       {
         name: '*Breakfast Burrito',
-        price: '$5.98',
+        price: '$6.19',
         description: 'Ham, eggs, cheese & pico de gallo',
       },
       {
