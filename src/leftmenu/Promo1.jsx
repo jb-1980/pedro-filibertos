@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   promosContainer: {
     flex: 1,
     margin: 10,
-    height: 475,
+    height: 450,
   },
 })
 
