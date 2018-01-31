@@ -35,6 +35,16 @@ const styles = StyleSheet.create({
 })
 
 export default class Extras extends React.Component {
+  resize = () => this.forceUpdate()
+
+  componentDidMount() {
+    window.addEventListener('resize', this.resize)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.resize)
+  }
+
   render() {
     const column1 = menuitems.slice(0,2).map( (section, i) =>
       <Section

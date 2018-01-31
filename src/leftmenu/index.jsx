@@ -53,6 +53,16 @@ const styles = StyleSheet.create({
 })
 
 export default class Menu extends React.Component {
+  resize = () => this.forceUpdate()
+
+  componentDidMount() {
+    window.addEventListener('resize', this.resize)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.resize)
+  }
+
   render() {
 
 

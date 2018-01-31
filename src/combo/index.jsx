@@ -83,13 +83,16 @@ const styles = StyleSheet.create({
 })
 
 export default class Combos extends React.Component {
-  // state = {combos: []}
-  //
-  // componentDidMount() {
-  //   fetch('combos.json')
-  //     .then(data => data.json())
-  //     .then(combos => this.setState({combos}))
-  // }
+  resize = () => this.forceUpdate()
+
+  componentDidMount() {
+    window.addEventListener('resize', this.resize)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.resize)
+  }
+  
   render() {
     // const { combos} = this.state
     const combosComponents = combos.map( (combo, i) => (
