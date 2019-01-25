@@ -1,10 +1,10 @@
-import { combos } from "./combo/combos"
-import { menuitems as leftItems } from "./leftmenu/menuitems"
-import { menuitems as rightItems } from "./rightmenu/menuitems"
+import { combos } from "./combo/combos.bak"
+import { menuitems as leftItems } from "./leftmenu/menuitems.bak"
+import { menuitems as rightItems } from "./rightmenu/menuitems.bak"
 import fs from "fs"
 
 const _combos = combos.map(combo => {
-  const price = Number(combo.price.replace("$", "")) * 1.03
+  const price = Number(combo.price.replace("$", "")) * 1.035
   return {
     ...combo,
     price: "$" + price.toFixed(2),
@@ -14,7 +14,7 @@ const _combos = combos.map(combo => {
 const left_menuitems = Object.entries(leftItems).reduce(
   (acc, [name, values]) => {
     const items = values.items.map(i => {
-      const price = Number(i.price.replace("$", "")) * 1.03
+      const price = Number(i.price.replace("$", "")) * 1.035
 
       return { ...i, price: "$" + price.toFixed(2) }
     })
@@ -27,7 +27,7 @@ const left_menuitems = Object.entries(leftItems).reduce(
 
 const right_menuitems = rightItems.map(section => {
   const items = section.items.map(i => {
-    const price = Number(i.price.replace("$", "")) * 1.03
+    const price = Number(i.price.replace("$", "")) * 1.035
 
     return { ...i, price: "$" + price.toFixed(2) }
   })

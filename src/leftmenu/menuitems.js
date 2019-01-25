@@ -1,267 +1,265 @@
 export const menuitems = {
-  extras: {
-    name: "extras",
-    items: [
+  "extras": {
+    "name": "extras",
+    "items": [
       {
-        name: "Cheese",
-        price: "$1.54",
-        description: "",
+        "name": "Cheese",
+        "price": "$1.55",
+        "description": ""
       },
       {
-        name: "Guacamole",
-        price: "$1.85",
-        description: "",
+        "name": "Guacamole",
+        "price": "$1.86",
+        "description": ""
       },
       {
-        name: "Sour Cream",
-        price: "$1.54",
-        description: "",
+        "name": "Sour Cream",
+        "price": "$1.55",
+        "description": ""
       },
       {
-        name: "Pico de Gallo",
-        price: "$1.54",
-        description: "",
+        "name": "Pico de Gallo",
+        "price": "$1.55",
+        "description": ""
       },
       {
-        name: "Enchilda Style",
-        price: "$1.59",
-        description: "",
+        "name": "Enchilda Style",
+        "price": "$1.59",
+        "description": ""
       },
       {
-        name: "Jalapeños",
-        price: "$1.54",
-        description: "",
-      },
-    ],
+        "name": "Jalapeños",
+        "price": "$1.55",
+        "description": ""
+      }
+    ]
   },
-  salads: {
-    name: "salads",
-    items: [
+  "salads": {
+    "name": "salads",
+    "items": [
       {
-        name: "Taco Salad",
-        price: "$7.86",
-        description: "",
+        "name": "Taco Salad",
+        "price": "$7.90",
+        "description": ""
       },
       {
-        name: "Fili's Chicken Salad",
-        price: "$7.18",
-        description: "",
-      },
-    ],
+        "name": "Fili's Chicken Salad",
+        "price": "$7.21",
+        "description": ""
+      }
+    ]
   },
-  tacos: {
-    name: "tacos",
-    items: [
+  "tacos": {
+    "name": "tacos",
+    "items": [
       {
-        name: "Chicken",
-        price: "$2.75",
-        description: "",
+        "name": "Chicken",
+        "price": "$2.76",
+        "description": ""
       },
       {
-        name: "Beef",
-        price: "$3.12",
-        description: "",
+        "name": "Beef",
+        "price": "$3.14",
+        "description": ""
       },
       {
-        name: "Pollo Asado",
-        price: "$3.24",
-        description: "",
+        "name": "Pollo Asado",
+        "price": "$3.26",
+        "description": ""
       },
       {
-        name: "Carne Asada",
-        price: "$3.77",
-        description: "",
+        "name": "Carne Asada",
+        "price": "$3.79",
+        "description": ""
       },
       {
-        name: "Carnitas",
-        price: "$3.24",
-        description: "",
+        "name": "Carnitas",
+        "price": "$3.26",
+        "description": ""
       },
       {
-        name: "Pescado",
-        price: "$3.24",
-        description: "",
+        "name": "Pescado",
+        "price": "$3.26",
+        "description": ""
       },
       {
-        name: "Camaron",
-        price: "$3.75",
-        description: "",
+        "name": "Camaron",
+        "price": "$3.77",
+        "description": ""
       },
       {
-        name: "Adobada",
-        price: "$3.24",
-        description: "",
+        "name": "Adobada",
+        "price": "$3.26",
+        "description": ""
       },
       {
-        name: "3 Rolled Tacos Cheese",
-        price: "$3.63",
-        description: "",
+        "name": "3 Rolled Tacos Cheese",
+        "price": "$3.64",
+        "description": ""
       },
       {
-        name: "3 Rolled Tacos Cheese w/ Guacamole",
-        price: "$4.33",
-        description: "",
+        "name": "3 Rolled Tacos Cheese w/ Guacamole",
+        "price": "$4.35",
+        "description": ""
       },
       {
-        name: "5 Rolled Tacos Cheese w/ Guacamole",
-        price: "$5.57",
-        description: "",
-      },
-    ],
+        "name": "5 Rolled Tacos Cheese w/ Guacamole",
+        "price": "$5.60",
+        "description": ""
+      }
+    ]
   },
-  sides: {
-    name: "Sides",
-    items: [
+  "sides": {
+    "name": "Sides",
+    "items": [
       {
-        name: "Cheese Quesadilla",
-        price: "$4.94",
-        description: "",
+        "name": "Cheese Quesadilla",
+        "price": "$4.97",
+        "description": ""
       },
       {
-        name: "Pint of Rice",
-        price: "$3.30",
-        description: "",
+        "name": "Pint of Rice",
+        "price": "$3.31",
+        "description": ""
       },
       {
-        name: "Pint of Beans",
-        price: "$3.30",
-        description: "",
+        "name": "Pint of Beans",
+        "price": "$3.31",
+        "description": ""
       },
       {
-        name: "Pint of Guacamole",
-        price: "$9.38",
-        description: "",
+        "name": "Pint of Guacamole",
+        "price": "$9.43",
+        "description": ""
       },
       {
-        name: "Chips & Salsa",
-        price: "$3.70",
-        description: "",
+        "name": "Chips & Salsa",
+        "price": "$3.72",
+        "description": ""
       },
       {
-        name: "Churros",
-        price: "$1.65",
-        description: "",
+        "name": "Churros",
+        "price": "$1.66",
+        "description": ""
       },
       {
-        name: "Carne Asada Fries",
-        price: "$9.51",
-        description: "",
+        "name": "Carne Asada Fries",
+        "price": "$9.55",
+        "description": ""
       },
       {
-        name: "Cowboy Fries",
-        price: "$9.51",
-        description: "",
+        "name": "Cowboy Fries",
+        "price": "$9.55",
+        "description": ""
       },
       {
-        name: "Super Nachos",
-        price: "$10.94",
-        description:
-          "Steak, beans, cheese, sour cream, guacamole & pico de gallo",
+        "name": "Super Nachos",
+        "price": "$10.99",
+        "description": "Steak, beans, cheese, sour cream, guacamole & pico de gallo"
       },
       {
-        name: "Menudo",
-        price: "$9.08",
-        description: "",
-      },
-    ],
+        "name": "Menudo",
+        "price": "$9.13",
+        "description": ""
+      }
+    ]
   },
-  desserts: {
-    name: "desserts",
-    description: "",
-    items: [
+  "desserts": {
+    "name": "desserts",
+    "description": "",
+    "items": [
       {
-        name: "Churros",
-        price: "$1.64",
-        description: "",
+        "name": "Churros",
+        "price": "$1.65",
+        "description": ""
       },
       {
-        name: "Cinammon Chips",
-        price: "$1.64",
-        description: "",
+        "name": "Cinammon Chips",
+        "price": "$1.65",
+        "description": ""
       },
       {
-        name: "Oreo Churro",
-        price: "$2.67",
-        description: "",
-      },
-    ],
+        "name": "Oreo Churro",
+        "price": "$2.68",
+        "description": ""
+      }
+    ]
   },
-  quesadillasSupreme: {
-    name: "quesadillas supreme",
-    items: [
+  "quesadillasSupreme": {
+    "name": "quesadillas supreme",
+    "items": [
       {
-        name: "Carne Asada",
-        price: "$10.48",
-        description: "",
+        "name": "Carne Asada",
+        "price": "$10.53",
+        "description": ""
       },
       {
-        name: "Carnitas",
-        price: "$9.80",
-        description: "",
+        "name": "Carnitas",
+        "price": "$9.84",
+        "description": ""
       },
       {
-        name: "Pollo",
-        price: "$9.34",
-        description: "",
+        "name": "Pollo",
+        "price": "$9.39",
+        "description": ""
       },
       {
-        name: "Camaron",
-        price: "$10.48",
-        description: "",
-      },
-    ],
+        "name": "Camaron",
+        "price": "$10.53",
+        "description": ""
+      }
+    ]
   },
-  juicesAndAguas: {
-    name: "juices & aguas",
-    description: "Horchata, Jamaica, Tamarindo, Piña",
-    items: [
+  "juicesAndAguas": {
+    "name": "juices & aguas",
+    "description": "Horchata, Jamaica, Tamarindo, Piña",
+    "items": [
       {
-        name: "Small",
-        price: "$2.67",
-        description: "",
+        "name": "Small",
+        "price": "$2.68",
+        "description": ""
       },
       {
-        name: "Medium",
-        price: "$3.08",
-        description: "",
+        "name": "Medium",
+        "price": "$3.09",
+        "description": ""
       },
       {
-        name: "Large",
-        price: "$3.41",
-        description: "",
+        "name": "Large",
+        "price": "$3.43",
+        "description": ""
       },
       {
-        name: "Small Refill",
-        price: "$1.64",
-        description: "",
+        "name": "Small Refill",
+        "price": "$1.65",
+        "description": ""
       },
       {
-        name: "Medium Refill ",
-        price: "$1.98",
-        description: "",
+        "name": "Medium Refill ",
+        "price": "$1.99",
+        "description": ""
       },
       {
-        name: "Large Refill",
-        price: "$2.41",
-        description: "",
-      },
-    ],
+        "name": "Large Refill",
+        "price": "$2.42",
+        "description": ""
+      }
+    ]
   },
-  softDrinks: {
-    name: "Soft Drinks",
-    description:
-      "Coke, Diet Coke, Mr. Pibb, Fanta Orange, Sprite, Lemonade, Powerade, Hi-C Punch, Green Tea, Black Tea, Raspberry",
-    items: [
+  "softDrinks": {
+    "name": "Soft Drinks",
+    "description": "Coke, Diet Coke, Mr. Pibb, Fanta Orange, Sprite, Lemonade, Powerade, Hi-C Punch, Green Tea, Black Tea, Raspberry",
+    "items": [
       {
-        name: "Medium",
-        price: "$2.56",
-        description: "",
+        "name": "Medium",
+        "price": "$2.58",
+        "description": ""
       },
       {
-        name: "Large",
-        price: "$2.77",
-        description: "",
-      },
-    ],
-  },
+        "name": "Large",
+        "price": "$2.78",
+        "description": ""
+      }
+    ]
+  }
 }
