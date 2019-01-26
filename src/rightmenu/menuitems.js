@@ -162,12 +162,12 @@ export const menuitems = [
       },
       {
         name: "El Gordo",
-        price: "$9.97",
+        price: "$9.57",
         description: "",
       },
       {
         name: "Chimichanga",
-        price: "$8.95",
+        price: "$8.64",
         description: "Sour cream, guacamole, cheese, lettuce & pico de gallo",
       },
     ],
@@ -178,7 +178,7 @@ export const menuitems = [
     items: [
       {
         name: "Chorizo",
-        price: "$5.50",
+        price: "$5.52",
         description: "Chorizo, eggs, guacamole, lettuce & mayo",
       },
       {
