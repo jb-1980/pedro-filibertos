@@ -222,12 +222,12 @@ export const menuitems = {
       },
       {
         name: "Medium",
-        price: "$3.09",
+        price: "$2.99",
         description: "",
       },
       {
         name: "Large",
-        price: "$3.43",
+        price: "$3.31",
         description: "",
       },
       {
@@ -237,12 +237,12 @@ export const menuitems = {
       },
       {
         name: "Medium Refill ",
-        price: "$1.99",
+        price: "$1.91",
         description: "",
       },
       {
         name: "Large Refill",
-        price: "$2.42",
+        price: "$2.32",
         description: "",
       },
     ],
@@ -254,12 +254,12 @@ export const menuitems = {
     items: [
       {
         name: "Medium",
-        price: "$2.58",
+        price: "$1.99",
         description: "",
       },
       {
         name: "Large",
-        price: "$2.78",
+        price: "$2.49",
         description: "",
       },
     ],
