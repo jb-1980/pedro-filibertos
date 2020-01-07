@@ -283,22 +283,22 @@ export const menuitems = [
     items: [
       {
         name: "Carnitas",
-        price: "$8.57",
+        price: "$8.99",
         description: "",
       },
       {
         name: "Chicken",
-        price: "$8.57",
+        price: "$8.99",
         description: "",
       },
       {
         name: "Carne Asada",
-        price: "$9.56",
+        price: "$8.99",
         description: "",
       },
       {
         name: "Adobada",
-        price: "$8.57",
+        price: "$8.99",
         description: "",
       },
       {
