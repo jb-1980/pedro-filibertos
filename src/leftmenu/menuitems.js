@@ -176,7 +176,7 @@ export const menuitems = {
       },
       {
         name: "Cinammon Chips",
-        price: "$1.77",
+        price: "$2.49",
         description: "",
       },
       {
@@ -200,7 +200,7 @@ export const menuitems = {
         description: "",
       },
       {
-        name: "Pollo",
+        name: "Chicken",
         price: "$10.05",
         description: "",
       },

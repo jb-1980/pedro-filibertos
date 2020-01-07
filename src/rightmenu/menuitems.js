@@ -162,7 +162,7 @@ export const menuitems = [
       },
       {
         name: "El Gordo",
-        price: "$10.24",
+        price: "$10.67",
         description: "",
       },
       {
@@ -179,7 +179,7 @@ export const menuitems = [
       {
         name: "Chorizo",
         price: "$5.89",
-        description: "Chorizo, eggs, guacamole, lettuce & mayo",
+        description: "Chorizo, eggs, mayo, beans & cheese",
       },
       {
         name: "Ham",
@@ -189,8 +189,7 @@ export const menuitems = [
       {
         name: "Machaca",
         price: "$6.73",
-        description:
-          "Shredded beef, eggs, bell peppers, onions, tomatoes, guacamole, lettuce & mayo",
+        description: "Peppers, tomatoes, onion, mayo, beans & cheese",
       },
       {
         name: "Carne Asada",
