@@ -1,36 +1,35 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { StyleSheet, css } from 'aphrodite'
+import React from "react"
+import ReactDOM from "react-dom"
+import { StyleSheet, css } from "aphrodite"
 
-import { menuitems } from './menuitems'
-import Section from './Section'
-import DrinkIcons from './DrinkIcons'
-import MainPromo from './MainPromo'
-import Promo1 from './Promo1'
+import { menuitems } from "./menuitems"
+import Section from "./Section"
+import MainPromo from "./MainPromo"
+import Promo1 from "./Promo1"
 
-const windowWidth = window.innerWidth
-const windowHeight = window.innerHeight
+const windowWidth = 1920
+const windowHeight = 1080
 
 const styles = StyleSheet.create({
   menu: {
-    display: 'flex',
+    display: "flex",
   },
   leftHalf: {
     width: windowWidth / 2,
     height: windowHeight,
-    display: 'flex',
-    ':first-child': {
+    display: "flex",
+    ":first-child": {
       marginLeft: 0,
     },
-    ':last-child': {
+    ":last-child": {
       marginRight: 0,
-    }
+    },
   },
   rightHalf: {
     width: windowWidth / 2,
     height: windowHeight,
-    display: 'flex',
-    flexDirection: 'column',
+    display: "flex",
+    flexDirection: "column",
   },
   column: {
     width: windowWidth / 4,
@@ -39,33 +38,21 @@ const styles = StyleSheet.create({
     marginRight: 7,
   },
   underPromo: {
-    display: 'flex',
+    display: "flex",
     flex: 1,
   },
   logo: {
     width: windowWidth / 4 - 14,
   },
   catchPhrase: {
-    textAlign: 'center',
-    fontSize: '3.5em',
-    color: 'rgb(253, 229, 0)',
+    textAlign: "center",
+    fontSize: "3.5em",
+    color: "rgb(253, 229, 0)",
   },
 })
 
 export default class Menu extends React.Component {
-  resize = () => this.forceUpdate()
-
-  componentDidMount() {
-    window.addEventListener('resize', this.resize)
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.resize)
-  }
-
   render() {
-
-
     return (
       <div className={css(styles.menu)}>
         <section className={css(styles.leftHalf)}>
@@ -120,14 +107,19 @@ export default class Menu extends React.Component {
                 items={menuitems.softDrinks.items}
               />
             </div>
-            <div className={css(styles.column)}
+            <div
+              className={css(styles.column)}
               style={{
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}>
-              <img className={css(styles.logo)} src={'../../assets/images/filibertos-text.png'}/>
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img
+                className={css(styles.logo)}
+                src={"../../assets/images/filibertos-text.png"}
+              />
               <div className={css(styles.catchPhrase)}>
                 We don't just serve fast food, we serve fresh food fast.
               </div>
@@ -139,7 +131,4 @@ export default class Menu extends React.Component {
   }
 }
 
-ReactDOM.render(
-  <Menu/>,
-  document.getElementById('app')
-)
+ReactDOM.render(<Menu />, document.getElementById("app"))

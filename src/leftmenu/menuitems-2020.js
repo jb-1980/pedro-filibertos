@@ -4,32 +4,32 @@ export const menuitems = {
     items: [
       {
         name: "Cheese",
-        price: "$1.82",
+        price: "$1.73",
         description: "",
       },
       {
         name: "Guacamole",
-        price: "$2.11",
+        price: "$2.01",
         description: "",
       },
       {
         name: "Sour Cream",
-        price: "$1.82",
+        price: "$1.73",
         description: "",
       },
       {
         name: "Pico de Gallo",
-        price: "$1.82",
+        price: "$1.73",
         description: "",
       },
       {
         name: "Enchilda Style",
-        price: "$1.67",
+        price: "$1.59",
         description: "",
       },
       {
         name: "Jalapeños",
-        price: "$1.82",
+        price: "$1.73",
         description: "",
       },
     ],
@@ -39,12 +39,12 @@ export const menuitems = {
     items: [
       {
         name: "Taco Salad",
-        price: "$8.87",
+        price: "$8.45",
         description: "",
       },
       {
         name: "Fili's Chicken Salad",
-        price: "$8.10",
+        price: "$7.71",
         description: "",
       },
     ],
@@ -54,62 +54,62 @@ export const menuitems = {
     items: [
       {
         name: "Chicken",
-        price: "$3.10",
+        price: "$2.95",
         description: "",
       },
       {
         name: "Beef",
-        price: "$3.50",
+        price: "$3.33",
         description: "",
       },
       {
         name: "Ground Beef",
-        price: "$2.29",
+        price: "$2.18",
         description: "",
       },
       {
         name: "Pollo Asado",
-        price: "$3.66",
+        price: "$3.49",
         description: "",
       },
       {
         name: "Carne Asada",
-        price: "$4.26",
+        price: "$4.06",
         description: "",
       },
       {
         name: "Carnitas",
-        price: "$3.66",
+        price: "$3.49",
         description: "",
       },
       {
         name: "Pescado",
-        price: "$3.66",
+        price: "$3.49",
         description: "",
       },
       {
         name: "Camaron",
-        price: "$4.23",
+        price: "$4.03",
         description: "",
       },
       {
         name: "Adobada",
-        price: "$3.66",
+        price: "$3.49",
         description: "",
       },
       {
         name: "3 Rolled Tacos Cheese",
-        price: "$4.11",
+        price: "$3.91",
         description: "",
       },
       {
         name: "3 Rolled Tacos Cheese w/ Guacamole",
-        price: "$4.88",
+        price: "$4.65",
         description: "",
       },
       {
         name: "5 Rolled Tacos Cheese w/ Guacamole",
-        price: "$6.29",
+        price: "$5.99",
         description: "",
       },
     ],
@@ -119,48 +119,48 @@ export const menuitems = {
     items: [
       {
         name: "Cheese Quesadilla",
-        price: "$5.59",
+        price: "$5.32",
         description: "",
       },
       {
         name: "Pint of Rice",
-        price: "$3.72",
+        price: "$3.54",
         description: "",
       },
       {
         name: "Pint of Beans",
-        price: "$3.72",
+        price: "$3.54",
         description: "",
       },
       {
         name: "Pint of Guacamole",
-        price: "$10.59",
+        price: "$10.09",
         description: "",
       },
       {
         name: "Chips & Salsa",
-        price: "$4.18",
+        price: "$3.98",
         description: "",
       },
       {
         name: "Carne Asada Fries",
-        price: "$10.73",
+        price: "$10.22",
         description: "",
       },
       {
         name: "Cowboy Fries",
-        price: "$10.73",
+        price: "$10.22",
         description: "",
       },
       {
         name: "Super Nachos",
-        price: "$12.35",
+        price: "$11.76",
         description:
           "Steak, beans, cheese, sour cream, guacamole & pico de gallo",
       },
       {
         name: "Menudo",
-        price: "$10.62",
+        price: "$10.11",
         description: "",
       },
     ],
@@ -171,17 +171,17 @@ export const menuitems = {
     items: [
       {
         name: "Churros",
-        price: "$1.86",
+        price: "$1.77",
         description: "",
       },
       {
         name: "Cinammon Chips",
-        price: "$2.61",
+        price: "$2.49",
         description: "",
       },
       {
         name: "Oreo Churro",
-        price: "$3.01",
+        price: "$2.87",
         description: "",
       },
     ],
@@ -191,22 +191,22 @@ export const menuitems = {
     items: [
       {
         name: "Carne Asada",
-        price: "$11.83",
+        price: "$11.27",
         description: "",
       },
       {
         name: "Carnitas",
-        price: "$11.06",
+        price: "$10.53",
         description: "",
       },
       {
         name: "Chicken",
-        price: "$10.55",
+        price: "$10.05",
         description: "",
       },
       {
         name: "Camaron",
-        price: "$11.83",
+        price: "$11.27",
         description: "",
       },
     ],
@@ -217,32 +217,32 @@ export const menuitems = {
     items: [
       {
         name: "Small",
-        price: "$2.90",
+        price: "$2.76",
         description: "",
       },
       {
         name: "Medium",
-        price: "$3.36",
+        price: "$3.20",
         description: "",
       },
       {
         name: "Large",
-        price: "$3.72",
+        price: "$3.54",
         description: "",
       },
       {
         name: "Small Refill",
-        price: "$1.78",
+        price: "$1.70",
         description: "",
       },
       {
         name: "Medium Refill ",
-        price: "$2.14",
+        price: "$2.04",
         description: "",
       },
       {
         name: "Large Refill",
-        price: "$2.60",
+        price: "$2.48",
         description: "",
       },
     ],
@@ -254,12 +254,12 @@ export const menuitems = {
     items: [
       {
         name: "Medium",
-        price: "$2.61",
+        price: "$2.49",
         description: "",
       },
       {
         name: "Large",
-        price: "$2.82",
+        price: "$2.69",
         description: "",
       },
     ],

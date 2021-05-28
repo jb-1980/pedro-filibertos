@@ -1,56 +1,56 @@
-import React from 'react'
-import { StyleSheet, css } from 'aphrodite'
+import React from "react"
+import { StyleSheet, css } from "aphrodite"
 
 const promos = [
   {
-    name: 'Carne Asada Quesadilla Supreme',
-    img: 'Carne_Asada_Quesadilla_Supreme.jpg',
+    name: "Carne Asada Quesadilla Supreme",
+    img: "Carne_Asada_Quesadilla_Supreme.jpg",
   },
   {
-    name: 'Carnitas Quesadilla Supreme',
-    img: 'Carnitas_Quesadilla_Supreme.jpg',
+    name: "Carnitas Quesadilla Supreme",
+    img: "Carnitas_Quesadilla_Supreme.jpg",
   },
   {
-    name: 'Pollo Quesadilla Supreme',
-    img: 'Chicken_Quesadilla_Supreme.jpg',
+    name: "Pollo Quesadilla Supreme",
+    img: "Chicken_Quesadilla_Supreme.jpg",
   },
   {
-    name: 'Camaron Quesadilla Supreme',
-    img:'Shrimp_Quesadilla_Supreme.jpg',
+    name: "Camaron Quesadilla Supreme",
+    img: "Shrimp_Quesadilla_Supreme.jpg",
   },
 ]
 
-const windowWidth = window.innerWidth
-const windowHeight = window.innerHeight
+const windowWidth = 1920
 
-const Promo1 = () =>
-<div className={css(styles.promosContainer)}>
-  {
-    promos.map( (promo, i) =>
+const Promo1 = () => (
+  <div className={css(styles.promosContainer)}>
+    {promos.map((promo, i) => (
       <div key={i} className="promo1">
-        <img className="promo1-image"
+        <img
+          className="promo1-image"
           src={`../../assets/images/2017/quesadillas_supreme/${promo.img}`}
           style={{
             width: windowWidth / 4 - 20,
-            height: 20 * (windowWidth / 4 - 20) / 23,
+            height: (20 * (windowWidth / 4 - 20)) / 23,
           }}
         />
-        <div className="promo1-title" style={{
-          width: windowWidth / 4 - 20,
-          fontSize: '2em',
-          color: 'rgb(240, 103, 16)',
-          textTransform: 'uppercase',
-          fontWeight: 'bolder',
-          textAlign: 'center',
-        }}
+        <div
+          className="promo1-title"
+          style={{
+            width: windowWidth / 4 - 20,
+            fontSize: "2em",
+            color: "rgb(240, 103, 16)",
+            textTransform: "uppercase",
+            fontWeight: "bolder",
+            textAlign: "center",
+          }}
         >
-        {promo.name}
+          {promo.name}
         </div>
       </div>
-    )
-  }
-
-</div>
+    ))}
+  </div>
+)
 
 const styles = StyleSheet.create({
   promosContainer: {

@@ -1,10 +1,9 @@
 const path = require("path")
 const webpack = require("webpack")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
-const CleanWebpackPlugin = require("clean-webpack-plugin")
+const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 
 const outputPath = process.env.NODE_ENV === "production" ? "dist" : "staging"
-const pathsToClean = [outputPath]
 
 var config = {
   resolve: {
@@ -14,13 +13,13 @@ var config = {
     rules: [
       {
         test: /\.jsx?$/,
-        loader: "babel-loader",
+        use: ["babel-loader"],
         exclude: /node_modules/,
         include: __dirname,
       },
       {
         test: /\.css?$/,
-        loader: "style-loader!css-loader",
+        use: ["style-loader", "css-loader"],
         include: __dirname,
       },
     ],
@@ -32,7 +31,7 @@ var config = {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV),
       },
     }),
-    new CleanWebpackPlugin(pathsToClean, {
+    new CleanWebpackPlugin({
       watch: false,
       exclude: ["index.html"],
     }),
