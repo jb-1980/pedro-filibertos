@@ -1,9 +1,9 @@
-import { combos } from "./combo/combos-2020.js"
-import { menuitems as leftItems } from "./leftmenu/menuitems-2020.js"
-import { menuitems as rightItems } from "./rightmenu/menuitems-2020.js"
+import { combos } from "./combo/combos-2021.js"
+import { menuitems as leftItems } from "./leftmenu/menuitems-2021.js"
+import { menuitems as rightItems } from "./rightmenu/menuitems-2021.js"
 import fs from "fs"
 
-const PRICE_INCREASE = 1.05
+const PRICE_INCREASE = 1.1
 
 const _combos = combos.map((combo) => {
   const price = Number(combo.price.replace("$", "")) * PRICE_INCREASE
