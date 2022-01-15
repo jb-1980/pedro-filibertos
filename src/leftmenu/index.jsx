@@ -2,7 +2,6 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { StyleSheet, css } from "aphrodite"
 
-import { menuitems } from "./menuitems"
 import Section from "./Section"
 import MainPromo from "./MainPromo"
 import Promo1 from "./Promo1"
@@ -51,84 +50,90 @@ const styles = StyleSheet.create({
   },
 })
 
-export default class Menu extends React.Component {
-  render() {
-    return (
-      <div className={css(styles.menu)}>
-        <section className={css(styles.leftHalf)}>
+export default function Menu() {
+  const [menuitems, setMenuitems] = React.useState(null)
+  React.useEffect(() => {
+    if (menuitems === null) {
+      fetch("../../assets/data/left-menu-items.json")
+        .then((res) => res.json())
+        .then(setMenuitems)
+    }
+  }, [menuitems])
+  return menuitems === null ? null : (
+    <div className={css(styles.menu)}>
+      <section className={css(styles.leftHalf)}>
+        <div className={css(styles.column)}>
+          <Section
+            name={menuitems.extras.name}
+            description={menuitems.extras.description}
+            items={menuitems.extras.items}
+          />
+          <Section
+            name={menuitems.quesadillasSupreme.name}
+            description={menuitems.quesadillasSupreme.description}
+            items={menuitems.quesadillasSupreme.items}
+          />
+          <Promo1 />
+          <Section
+            name={menuitems.desserts.name}
+            description={menuitems.desserts.description}
+            items={menuitems.desserts.items}
+          />
+        </div>
+        <div className={css(styles.column)}>
+          <Section
+            name={menuitems.tacos.name}
+            description={menuitems.tacos.description}
+            items={menuitems.tacos.items}
+          />
+          <Section
+            name={menuitems.salads.name}
+            description={menuitems.salads.description}
+            items={menuitems.salads.items}
+          />
+          <Section
+            name={menuitems.sides.name}
+            description={menuitems.sides.description}
+            items={menuitems.sides.items}
+          />
+        </div>
+      </section>
+      <section className={css(styles.rightHalf)}>
+        <MainPromo />
+        <div className={css(styles.underPromo)}>
           <div className={css(styles.column)}>
             <Section
-              name={menuitems.extras.name}
-              description={menuitems.extras.description}
-              items={menuitems.extras.items}
+              name={menuitems.juicesAndAguas.name}
+              description={menuitems.juicesAndAguas.description}
+              items={menuitems.juicesAndAguas.items}
             />
             <Section
-              name={menuitems.quesadillasSupreme.name}
-              description={menuitems.quesadillasSupreme.description}
-              items={menuitems.quesadillasSupreme.items}
-            />
-            <Promo1 />
-            <Section
-              name={menuitems.desserts.name}
-              description={menuitems.desserts.description}
-              items={menuitems.desserts.items}
+              name={menuitems.softDrinks.name}
+              description={menuitems.softDrinks.description}
+              items={menuitems.softDrinks.items}
             />
           </div>
-          <div className={css(styles.column)}>
-            <Section
-              name={menuitems.tacos.name}
-              description={menuitems.tacos.description}
-              items={menuitems.tacos.items}
+          <div
+            className={css(styles.column)}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img
+              className={css(styles.logo)}
+              src={"../../assets/images/filibertos-text.png"}
             />
-            <Section
-              name={menuitems.salads.name}
-              description={menuitems.salads.description}
-              items={menuitems.salads.items}
-            />
-            <Section
-              name={menuitems.sides.name}
-              description={menuitems.sides.description}
-              items={menuitems.sides.items}
-            />
-          </div>
-        </section>
-        <section className={css(styles.rightHalf)}>
-          <MainPromo />
-          <div className={css(styles.underPromo)}>
-            <div className={css(styles.column)}>
-              <Section
-                name={menuitems.juicesAndAguas.name}
-                description={menuitems.juicesAndAguas.description}
-                items={menuitems.juicesAndAguas.items}
-              />
-              <Section
-                name={menuitems.softDrinks.name}
-                description={menuitems.softDrinks.description}
-                items={menuitems.softDrinks.items}
-              />
-            </div>
-            <div
-              className={css(styles.column)}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <img
-                className={css(styles.logo)}
-                src={"../../assets/images/filibertos-text.png"}
-              />
-              <div className={css(styles.catchPhrase)}>
-                We don't just serve fast food, we serve fresh food fast.
-              </div>
+            <div className={css(styles.catchPhrase)}>
+              We don't just serve fast food, we serve fresh food fast.
             </div>
           </div>
-        </section>
-      </div>
-    )
-  }
+        </div>
+      </section>
+    </div>
+  )
 }
 
 ReactDOM.render(<Menu />, document.getElementById("app"))

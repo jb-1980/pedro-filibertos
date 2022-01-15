@@ -42,7 +42,7 @@ var menuConfig = Object.assign({}, config, {
   entry: "./src/leftmenu/index",
   output: {
     path: path.join(__dirname, outputPath + "/leftmenu"),
-    filename: "bundle.[chunkHash].js",
+    filename: "bundle.[contenthash].js",
   },
   plugins: [
     ...config.plugins,
@@ -57,7 +57,7 @@ var comboConfig = Object.assign({}, config, {
   entry: "./src/combo/index",
   output: {
     path: path.join(__dirname, outputPath + "/combo"),
-    filename: "bundle.[chunkHash].js",
+    filename: "bundle.[contenthash].js",
   },
   plugins: [
     ...config.plugins,
@@ -72,7 +72,7 @@ var extrasConfig = Object.assign({}, config, {
   entry: "./src/rightmenu/index",
   output: {
     path: path.join(__dirname, outputPath + "/rightmenu"),
-    filename: "bundle.[chunkHash].js",
+    filename: "bundle.[contenthash].js",
   },
   plugins: [
     ...config.plugins,
