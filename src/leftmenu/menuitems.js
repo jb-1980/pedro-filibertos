@@ -64,7 +64,7 @@ export const menuitems = {
       },
       {
         name: "Ground Beef",
-        price: "$2.52",
+        price: "$3.19",
         description: "",
       },
       {
