@@ -4,32 +4,32 @@
     "items": [
       {
         "name": "Cheese",
-        "price": "$2.00",
+        "price": "$2.20",
         "description": ""
       },
       {
         "name": "Guacamole",
-        "price": "$2.32",
+        "price": "$2.55",
         "description": ""
       },
       {
         "name": "Sour Cream",
-        "price": "$2.00",
+        "price": "$2.20",
         "description": ""
       },
       {
         "name": "Pico de Gallo",
-        "price": "$2.00",
+        "price": "$2.20",
         "description": ""
       },
       {
         "name": "Enchilda Style",
-        "price": "$1.84",
+        "price": "$2.02",
         "description": ""
       },
       {
         "name": "Jalapeños",
-        "price": "$2.00",
+        "price": "$2.20",
         "description": ""
       }
     ]
@@ -39,12 +39,12 @@
     "items": [
       {
         "name": "Taco Salad",
-        "price": "$9.76",
+        "price": "$10.74",
         "description": ""
       },
       {
         "name": "Fili's Chicken Salad",
-        "price": "$8.91",
+        "price": "$9.80",
         "description": ""
       }
     ]
@@ -54,62 +54,62 @@
     "items": [
       {
         "name": "Chicken",
-        "price": "$3.41",
+        "price": "$3.75",
         "description": ""
       },
       {
         "name": "Beef",
-        "price": "$3.85",
+        "price": "$4.24",
         "description": ""
       },
       {
         "name": "Ground Beef",
-        "price": "$3.19",
+        "price": "$3.51",
         "description": ""
       },
       {
         "name": "Pollo Asado",
-        "price": "$4.03",
+        "price": "$4.43",
         "description": ""
       },
       {
         "name": "Carne Asada",
-        "price": "$5.76",
+        "price": "$6.34",
         "description": ""
       },
       {
         "name": "Carnitas",
-        "price": "$4.03",
+        "price": "$4.43",
         "description": ""
       },
       {
         "name": "Pescado",
-        "price": "$4.03",
+        "price": "$4.43",
         "description": ""
       },
       {
         "name": "Camaron",
-        "price": "$4.65",
+        "price": "$5.12",
         "description": ""
       },
       {
         "name": "Adobada",
-        "price": "$4.03",
+        "price": "$4.43",
         "description": ""
       },
       {
         "name": "3 Rolled Tacos Cheese",
-        "price": "$4.52",
+        "price": "$4.97",
         "description": ""
       },
       {
         "name": "3 Rolled Tacos Cheese w/ Guacamole",
-        "price": "$5.37",
+        "price": "$5.91",
         "description": ""
       },
       {
         "name": "5 Rolled Tacos Cheese w/ Guacamole",
-        "price": "$6.92",
+        "price": "$7.61",
         "description": ""
       }
     ]
@@ -119,47 +119,47 @@
     "items": [
       {
         "name": "Cheese Quesadilla",
-        "price": "$6.15",
+        "price": "$6.77",
         "description": ""
       },
       {
         "name": "Pint of Rice",
-        "price": "$4.09",
+        "price": "$4.50",
         "description": ""
       },
       {
         "name": "Pint of Beans",
-        "price": "$4.09",
+        "price": "$4.50",
         "description": ""
       },
       {
         "name": "Pint of Guacamole",
-        "price": "$11.65",
+        "price": "$12.82",
         "description": ""
       },
       {
         "name": "Chips & Salsa",
-        "price": "$4.60",
+        "price": "$5.06",
         "description": ""
       },
       {
         "name": "Carne Asada Fries",
-        "price": "$12.23",
+        "price": "$13.45",
         "description": ""
       },
       {
         "name": "Cowboy Fries",
-        "price": "$11.80",
+        "price": "$12.98",
         "description": ""
       },
       {
         "name": "Super Nachos",
-        "price": "$13.85",
+        "price": "$15.24",
         "description": "Steak, beans, cheese, sour cream, guacamole & pico de gallo"
       },
       {
         "name": "Menudo",
-        "price": "$11.68",
+        "price": "$12.85",
         "description": ""
       }
     ]
@@ -170,17 +170,17 @@
     "items": [
       {
         "name": "Churros",
-        "price": "$2.05",
+        "price": "$2.25",
         "description": ""
       },
       {
         "name": "Cinammon Chips",
-        "price": "$2.87",
+        "price": "$3.16",
         "description": ""
       },
       {
         "name": "Oreo Churro",
-        "price": "$3.31",
+        "price": "$3.64",
         "description": ""
       }
     ]
@@ -190,22 +190,22 @@
     "items": [
       {
         "name": "Carne Asada",
-        "price": "$13.33",
+        "price": "$14.66",
         "description": ""
       },
       {
         "name": "Carnitas",
-        "price": "$12.17",
+        "price": "$13.39",
         "description": ""
       },
       {
         "name": "Chicken",
-        "price": "$11.61",
+        "price": "$12.77",
         "description": ""
       },
       {
         "name": "Camaron",
-        "price": "$13.01",
+        "price": "$14.31",
         "description": ""
       }
     ]
@@ -216,32 +216,32 @@
     "items": [
       {
         "name": "Small",
-        "price": "$3.08",
+        "price": "$3.39",
         "description": ""
       },
       {
         "name": "Medium",
-        "price": "$3.36",
+        "price": "$3.70",
         "description": ""
       },
       {
         "name": "Large",
-        "price": "$3.41",
+        "price": "$3.75",
         "description": ""
       },
       {
         "name": "Small Refill",
-        "price": "$1.78",
+        "price": "$1.96",
         "description": ""
       },
       {
         "name": "Medium Refill ",
-        "price": "$2.14",
+        "price": "$2.35",
         "description": ""
       },
       {
         "name": "Large Refill",
-        "price": "$2.60",
+        "price": "$2.86",
         "description": ""
       }
     ]
@@ -252,12 +252,12 @@
     "items": [
       {
         "name": "Medium",
-        "price": "$2.49",
+        "price": "$2.74",
         "description": ""
       },
       {
         "name": "Large",
-        "price": "$2.69",
+        "price": "$2.96",
         "description": ""
       }
     ]

@@ -1,6 +1,6 @@
-import { combos } from "./combo/combos-2021.js"
-import { menuitems as leftItems } from "./leftmenu/menuitems-2021.js"
-import { menuitems as rightItems } from "./rightmenu/menuitems-2021.js"
+import { combos } from "./combo/combos-2022.js"
+import { menuitems as leftItems } from "./leftmenu/menuitems-2022.js"
+import { menuitems as rightItems } from "./rightmenu/menuitems-2022.js"
 import fs from "fs"
 
 const PRICE_INCREASE = 1.1
