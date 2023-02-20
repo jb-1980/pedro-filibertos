@@ -31,10 +31,10 @@ var config = {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV),
       },
     }),
-    new CleanWebpackPlugin({
-      watch: false,
-      exclude: ["index.html"],
-    }),
+    // new CleanWebpackPlugin({
+    //   watch: false,
+    //   exclude: ["index.html"],
+    // }),
   ],
 }
 
