@@ -5,11 +5,12 @@
   "main": "index.js",
   "author": "Joseph Gilgen <gilgenlabs@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev-build": "webpack",
     "build": "NODE_ENV=production webpack --mode production --env production",
     "stage": "NODE_ENV=staging webpack --mode production --env production",
-    "update-prices": "node --experimental-modules ./src/priceupdater.js",
+    "update-prices": "node --experimental-modules ./assets/data/priceupdater.js",
     "dev-server": "python -m http.server"
   },
   "devDependencies": {
